@@ -17,6 +17,10 @@ class FontConst {
     fontFamily: 'Montserrat',
     fontWeight: FontWeight.w500,
   );
+  static final PRIMARY_BOLD = TextStyle(
+    fontFamily: 'Montserrat',
+    fontWeight: FontWeight.w700,
+  );
 
   //  SECONDARY FONT
   // ignore: non_constant_identifier_names
@@ -24,12 +28,16 @@ class FontConst {
     fontFamily: 'Roboto',
     fontWeight: FontWeight.w400,
   );
+  static final SECONDARY_LIGHT = TextStyle(
+    fontFamily: 'Roboto',
+    fontWeight: FontWeight.w300,
+  );
   static final SECONDARY_MEDIUM = TextStyle(
     fontFamily: 'Roboto',
     fontWeight: FontWeight.w500,
   );
-  static final SECONDARY_LIGHT = TextStyle(
+  static final SECONDARY_BOLD = TextStyle(
     fontFamily: 'Roboto',
-    fontWeight: FontWeight.w300,
+    fontWeight: FontWeight.w700,
   );
 }
