@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:food_mobile/routes/routes.dart';
 import 'package:food_mobile/utils/const/color_const.dart';
 import 'package:food_mobile/utils/const/image_const.dart';
+import 'package:food_mobile/views/screens/login/login_screen.dart';
 import 'package:food_mobile/views/screens/onboarding/components/oboarding_content.dart';
 
 class OnBoardingBody extends StatefulWidget {
@@ -48,6 +50,7 @@ class _OnBoardingBodyState extends State<OnBoardingBody> {
                 child: InkWell(
                   onTap: () {
                     print('MJ leave onboarding');
+                    Routing().navigateTo(context, LoginScreen());
                   },
                   child: Text(
                     'Skip >>',
